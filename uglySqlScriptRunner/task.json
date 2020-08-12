@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
-  "id": "731afec8-1e8d-45e8-9a3f-5839afeb1de8",
+  "id": "a1dc94f8-99a1-448b-9f8b-d60e34479d41",
   "name": "ugly-sql-task",
   "friendlyName": "Ugly Sql Script Runner Task",
   "description": "Task that helps automate deployment of sql scripts",
