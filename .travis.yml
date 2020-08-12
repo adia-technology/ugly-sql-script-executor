@@ -23,5 +23,5 @@ jobs:
       file_glob: true
       skip_cleanup: true
       on:
-        repo: adia-technology/ugly-sql-azure-task
+        repo: adia-technology/ugly-sql-script-runner
 
