@@ -4,7 +4,7 @@
   "name": "Deploy SQL Server code",
   "description": "Extension tasks for automating deployment of SQL code.",
   "version": "0.0.1",
-  "publisher": "AdiaTechnology",
+  "publisher": "Adia-Technology",
   "targets": [
     {
       "id": "Microsoft.VisualStudio.Services"
