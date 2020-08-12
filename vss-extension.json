@@ -1,0 +1,43 @@
+{
+  "manifestVersion": 1,
+  "id": "ugly-sql-build-tasks",
+  "name": "Deploy SQL Server code",
+  "description": "Extension tasks for automating deployment of SQL code.",
+  "version": "0.0.1",
+  "publisher": "AdiaTechnology",
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "description": "Tools for automating deployment of SQL code.",
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "icons": {
+    "default": "images/extension-icon.png"
+  },
+  "files": [
+    {
+      "path": "uglySqlScriptRunner"
+    }
+  ],
+  "public": true,
+  "content": {
+    "details": {
+      "path": "overview.md"
+    }
+  },
+  "contributions": [
+    {
+      "id": "ugly-sql-script-runner",
+      "type": "ms.vss-distributed-task.task",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "properties": {
+        "name": "uglySqlScriptRunner"
+      }
+    }
+  ]
+}

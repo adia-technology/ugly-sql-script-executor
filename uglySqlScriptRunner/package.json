@@ -1,0 +1,22 @@
+{
+  "name": "ugly-sql-script-runner",
+  "version": "0.0.1",
+  "description": "uglySqlScriptRunner",
+  "main": "index.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.10.0",
+    "mssql": "^6.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/q": "^1.5.4",
+    "typescript": "^3.9.7"
+  }
+}
