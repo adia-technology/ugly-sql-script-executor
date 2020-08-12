@@ -1,9 +1,9 @@
 {
   "manifestVersion": 1,
   "id": "ugly-sql-build-tasks",
-  "name": "Deploy SQL Server code",
+  "name": "Ugly SQL Script Runner",
   "description": "Extension tasks for automating deployment of SQL code.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Adia-Technology",
   "targets": [
     {
