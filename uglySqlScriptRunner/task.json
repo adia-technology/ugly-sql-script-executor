@@ -18,7 +18,7 @@
       "name": "sqlRoot",
       "type": "string",
       "label": "Path to SQL root",
-      "defaultValue": "C:/sqlTMP",
+      "defaultValue": "",
       "required": true,
       "helpMarkDown": "Specify the Path to SQL root"
     },
