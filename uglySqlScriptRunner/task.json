@@ -36,10 +36,10 @@
       "label": "Script folders",
       "defaultValue": "",
       "required": true,
-      "helpMarkDown": "Specify folders with [folder01, folder2, ...]"
+      "helpMarkDown": "Specify comma separated folders with folder01, folder2, ..."
     },
     {
-      "name": "connString",
+      "name": "sqlConnString",
       "type": "string",
       "label": "connection string",
       "defaultValue": "",
