@@ -75,9 +75,9 @@ async function applySqlScripts(sqlRoot: string, sqlFolders: Array<string>, filen
 async function applySqlScript(filepath: string, file: string, conn: any) {
     try {
         let scriptPath = path.join(filepath, file);
+        console.log("Running: " + scriptPath);
         let script = fs.readFileSync(scriptPath, 'utf8');
         await conn.batch(script);
-        console.log(scriptPath);
     } catch (err) {
         throw err;
     }
