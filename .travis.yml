@@ -18,10 +18,8 @@ jobs:
     deploy:
       provider: releases
       api_key:
-        secure: CyU3xICkEjnmG+E7+PYjeAWrIX28Ydx4+6nRa8Wf/Th06kBYhpoilr9YMLtvNd5ELsGKCHCL8gA39d+2re8dAIZU8AJWAARcF69IMAdWowRLbPaGpg0ahm9PTYglN9DdjGr4+D+AFR8RR32oK9tB9KvelwtdQv/M18iqKz02gEiO0tWFORyI244nAfGnVaNN2DLipd/uLXqaa3pelFUm6vWv9Vsxyv5sqYex5vGmS0dwRdPjW5RRqw6V7vbmKORu36cBXFo0f+o2gi6AsSGuw60RoALFTQLDzOWZGG1XlfiVAD8eTOH15Ye7K83SXsHKtefg7UHFe38nUDNEoCFztEztJ0Yfc8GrqCHRHEtdi73eTknSFjVL77c3v5cyiA3Sxvz1ctXXq2iGrY0IVak7bY5+hom7z50V8IizIUgVP2hAwjODMrOCnsMGPrZhKmFS9zgwRL/kcTS76f8HJ0CicJJQKbI+5grNWm6kvuXpGuR8FqkoYEHnS1MWgdi05/BrzVYCkfjg/IMr93YAJUMfX8nOjL151bcRZ/1TxiJD3sJHP9o6NeGJ6+SaDYsF+QFu81+ipsmDVqJYcLtlUPLPmJwGemL7JabGmjhlqC39sg317WszWc7tB4tMbPXzgy+s31pm26tPw/797zCwhDdCTIiWC2TIYr6r6sCqUnjQquw=
+        secure: mJkeaCgSgVbSMwjfcxNC6yqocfT9gtv8XbqdZw0RjTktp/Dy1tP6Aznu06o9lc8ofYDTgo3QLdEpRbMlx0ziaEPHA1mpPntyOLrSp5nFRZ1Z0MJ5RZ2E85T4yS3CIBWOi3mUF9kxarbt04QX10PkVUJtE5igGjue3ngjsC+m8Ud9V4K3N+px47pUOS9/egueOy0M4wHtaShl2IXxkLN0gK424bBDPVuZWd3T0L6GSgv6WSDvzkZ7RZGvKASfsti7Yx8fEYiMyqArEzev73uURARIzsF2Uysk86E6fk1FSfIlJ3H/mN5b1coOIMlkaGN8ZFHhJV9VaivYD9ACq6efbRbkfqR6ylp3ZqQKHJI4YWe0aS2KZg7SchD2xDYf7N/hwpmLim5sirqRU7goXfFdtVUNepx9SVMVE71a6MpdVXCxcdWzmYFl+6OP6nD6J0mW3RM9Wj04DXvyf62aYF1MXq1nx3egkbvp/9KaydWTJ0U0wHVEksNymrRCahVbvVn1yyiDn+QaFcfRSAqMr/mwZtSiUS1iSA+QDUtDiOzZocyonMx1yapR+Q9pmKcmTQ37st5ySC/OXVjpZdjIi6qXj/loS8wd/sXCksPjbH0ncGKxkTzGzNNLB8H7pJeOLjamAZgmnylOc/pqHMhMvxWGnl6aroERPXpG0PolWsu17b0=
       file: "*.vsix"
-      file_glob: true
-      skip_cleanup: true
       on:
         repo: adia-technology/ugly-sql-script-runner
-
+      skip_cleanup: 'true'
