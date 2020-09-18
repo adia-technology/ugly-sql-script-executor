@@ -3,7 +3,7 @@
   "id": "ugly-sql-build-tasks",
   "name": "Ugly SQL Script Runner",
   "description": "Extension tasks for automating deployment of SQL code.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "Adia-Technology",
   "targets": [
     {
