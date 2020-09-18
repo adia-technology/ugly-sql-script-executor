@@ -15,12 +15,12 @@ jobs:
     - rm -rf uglySqlScriptRunner/node_modules
     - "(cd uglySqlScriptRunner && npm install --production)"
     - tfx extension create --manifest-globs vss-extension.json
-deploy:
-  provider: releases
-  api_key:
-    secure: "gDRP+VxN/9/4w0dZIlYcIz4HR627wZ+5UL7LL8iG2jxDkfOU0MqbEF9UoD/EjkDSXlMrq2myb67vgHr5HB559rSKglWZNVmsF63j3JT0pRXxLhkoPJAEONwlzsml9ercrlAwby/5+g8/eoWgnYFFaPtEgTKSPt9Oiu2shpDfGrT+iR/nghDEzw/bxfI2VrFxQ6egznCNpQrTAzHUkiDLvfVOqUBQWiL3wFLK+LYeZ/yqsD65IoGGaZq1c5Z0dthkwrL1UTWCqYj5Dxh27GobSpwcftOUApUoMYxXZ2Na+502cDkpwJ1VjyAT/gwdJnskjqPDpZdIPA/8GM2EkdB80OGDBNjyVyFInewsyE4DuKSC90QUAUSy5XG7MZTK0+/GRpWEnjho6Ya7HIHh9qyeXHEm1GU9Hg8aiZtgtmnblH/UaqNBmSQ9R4raakpaH5GXPmltW9lraS7/YNsdnig5fvOf/QtZeEz02QewvNQkoJDFhFNSNE2ZYWOaj+1/rfNqRXRmVJbSs/PxosHz9Fu8gTRItCJKG7G5EiDAHvEbZtX8vxiRGt4zzlpMCu8cjtCBWnSjapqV4f1Rg33ob7EQzYjTe1L+wEA8zKHD6u9hWSr+QG/Nge12dzag1Vo7YHY42s6ML4pLheKMqHVZZ7182uuMD+f0qtjPCY0Nujy2V8g="
-  file: "*.vsix"
-  file_glob: true
-  on:
-    repo: adia-technology/ugly-sql-script-runner
-  skip_cleanup: 'true'
+    deploy:
+      provider: releases
+      api_key:
+        secure: "gDRP+VxN/9/4w0dZIlYcIz4HR627wZ+5UL7LL8iG2jxDkfOU0MqbEF9UoD/EjkDSXlMrq2myb67vgHr5HB559rSKglWZNVmsF63j3JT0pRXxLhkoPJAEONwlzsml9ercrlAwby/5+g8/eoWgnYFFaPtEgTKSPt9Oiu2shpDfGrT+iR/nghDEzw/bxfI2VrFxQ6egznCNpQrTAzHUkiDLvfVOqUBQWiL3wFLK+LYeZ/yqsD65IoGGaZq1c5Z0dthkwrL1UTWCqYj5Dxh27GobSpwcftOUApUoMYxXZ2Na+502cDkpwJ1VjyAT/gwdJnskjqPDpZdIPA/8GM2EkdB80OGDBNjyVyFInewsyE4DuKSC90QUAUSy5XG7MZTK0+/GRpWEnjho6Ya7HIHh9qyeXHEm1GU9Hg8aiZtgtmnblH/UaqNBmSQ9R4raakpaH5GXPmltW9lraS7/YNsdnig5fvOf/QtZeEz02QewvNQkoJDFhFNSNE2ZYWOaj+1/rfNqRXRmVJbSs/PxosHz9Fu8gTRItCJKG7G5EiDAHvEbZtX8vxiRGt4zzlpMCu8cjtCBWnSjapqV4f1Rg33ob7EQzYjTe1L+wEA8zKHD6u9hWSr+QG/Nge12dzag1Vo7YHY42s6ML4pLheKMqHVZZ7182uuMD+f0qtjPCY0Nujy2V8g="
+      file: "*.vsix"
+      file_glob: true
+      on:
+        repo: adia-technology/ugly-sql-script-runner
+      skip_cleanup: 'true'
