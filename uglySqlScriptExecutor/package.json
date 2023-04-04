@@ -1,7 +1,7 @@
 {
-  "name": "ugly-sql-script-runner",
+  "name": "ugly-sql-script-executor",
   "version": "0.0.1",
-  "description": "uglySqlScriptRunner",
+  "description": "uglySqlScriptExecutor",
   "main": "index.js",
   "author": {
     "name": ""

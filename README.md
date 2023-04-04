@@ -1,4 +1,4 @@
-# ugly-sql-script-runner
+# ugly-sql-script-executor
 Automated deployment of SQL code from Azure pipelines
 
 # Build and Run

@@ -11,9 +11,9 @@ jobs:
   - stage: deploy
     if: branch = master
     script:
-    - "(cd uglySqlScriptRunner && npm install && tsc)"
-    - rm -rf uglySqlScriptRunner/node_modules
-    - "(cd uglySqlScriptRunner && npm install --production)"
+    - "(cd uglySqlScriptExecutor && npm install && tsc)"
+    - rm -rf uglySqlScriptExecutor/node_modules
+    - "(cd uglySqlScriptExecutor && npm install --production)"
     - tfx extension create --manifest-globs vss-extension.json
     deploy:
       provider: releases
@@ -22,5 +22,5 @@ jobs:
       file: "*.vsix"
       file_glob: true
       on:
-        repo: adia-technology/ugly-sql-script-runner
+        repo: adia-technology/ugly-sql-script-executor
       skip_cleanup: 'true'
