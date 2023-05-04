@@ -3,7 +3,7 @@
   "id": "ugly-sql-build-tasks",
   "name": "Ugly SQL Script Executor",
   "description": "Extension tasks for automating deployment of SQL code.",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "publisher": "Adia-Technology",
   "targets": [
     {
@@ -30,7 +30,7 @@
   },
   "contributions": [
     {
-      "id": "ad88d1eb-0d6c-45e0-a55b-6fabe69e0675",
+      "id": "ugly-sql-script-runner",
       "type": "ms.vss-distributed-task.task",
       "targets": [
         "ms.vss-distributed-task.tasks"
